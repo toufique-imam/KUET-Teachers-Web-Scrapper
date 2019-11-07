@@ -19,13 +19,13 @@ KUET Teacher Data Scrapper from [KUET Website](http://www.kuet.ac.bd/)
 
 > Run api_teacher.py
 
-> Navigate to `http://localhost:5000/data/` or `http://localhost:5000/data/{DEPT_ID}` for perticular <b> Department Teachers' Data</b> || Example: http://localhost:5000/data/CSE/ 
+> Navigate to `http://localhost:5000/data/` or `http://localhost:5000/data/{DEPT_ID}` for perticular <b> Department Teachers' Data</b> || Example: `http://localhost:5000/data/CSE/` 
 
 > Navigate to `http://localhost:5000/data/all` for <b>All data</b>
 
-> Navigate to `http://localhost:5000/find/{query_string}` for getting data that contains <b>query string </b> || Example: http://localhost:5000/find/Ha
+> Navigate to `http://localhost:5000/find/{query_string}` for getting data that contains <b>query string </b> || Example: `http://localhost:5000/find/Ha`
 
-> Navigate to `http://localhost:5000/find/{DEPT_ID}/{query_string}` for getting data that contains <b>query string </b> in <i>dept_id</i>  || Example: http://localhost:5000/find/CSE/Ha
+> Navigate to `http://localhost:5000/find/{DEPT_ID}/{query_string}` for getting data that contains <b>query string </b> in <i>dept_id</i>  || Example: `http://localhost:5000/find/CSE/Ha`
 
 ### Bug
 - Something I didn't notice
