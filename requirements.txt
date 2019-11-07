@@ -1,0 +1,6 @@
+flask
+flask-restful
+gunicorn
+bs4
+requests
+html5lib
