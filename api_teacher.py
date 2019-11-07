@@ -33,17 +33,7 @@ def contains(j,id):
         return True
     return False;
 
-class search_teacher(Resource):
-    def get(self,id):
-        ans = []
-        id = id.lower()
-        for datac in data:
-            for j in data.get(datac):
-                if(contains(j,id)):
-                    ans.append(j)
-        if(len(ans)>0):
-            return ans,200
-        return "Not Found",404
+class search_dept_teacher(Resource):
     def get(self,dept,id):
         ans = []
         id = id.lower()
@@ -55,10 +45,21 @@ class search_teacher(Resource):
         if(len(ans) > 0):
             return ans, 200
         return "Not Found", 404
+class search_teacher(Resource):
+    def get(self, id):
+        ans = []
+        id = id.lower()
+        for datac in data:
+            for j in data.get(datac):
+                if(contains(j, id)):
+                    ans.append(j)
+        if(len(ans) > 0):
+            return ans, 200
+        return "Not Found", 404
 
 api.add_resource(Teacher_data,"/data","/data/","/data/<string:id>")
-api.add_resource(search_teacher, "/find/<string:id>",
-                 "/find/<string:dept>/<string:id>")
+api.add_resource(search_dept_teacher,"/find/<string:dept>/<string:id>")
+api.add_resource(search_teacher,"/find/<string:id>")
 
 if __name__ == "__main__":
     app.run()
