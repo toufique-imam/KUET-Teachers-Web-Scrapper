@@ -23,7 +23,7 @@ def download_data(url_mid):
 
 
 def get_soup(url_mid="CSE"):
-    #download_data(url_mid)
+    download_data(url_mid)
     f_name = 'teacher'+url_mid+'.html'
     f = open(f_name, 'r', encoding='utf-8')
     soup = BeautifulSoup(f, 'html5lib')
