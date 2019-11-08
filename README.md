@@ -10,7 +10,7 @@ KUET Teacher Data Scrapper from [KUET Website](http://www.kuet.ac.bd/)
  
 ## Playground
 
-> API is hostes in [Rapidapi](https://rapidapi.com/2013nuhash/api/kuet_bus) . Try it out :D
+> API is hostes in [Rapidapi](https://rapidapi.com/2013nuhash/api/kuet-teachers) . Try it out :D
 
 
 ## Install
