@@ -1,6 +1,16 @@
 # KUET-Teachers-Web-Scrapper
 KUET Teacher Data Scrapper from [KUET Website](http://www.kuet.ac.bd/)
 
+---
+[Iftekher Toufique Imam](https://github.com/toufique-imam)
+---
+
+[![GitHub Stars](https://img.shields.io/github/stars/toufique-imam/KUET-Teachers-Web-Scrapper?style=social)](https://github.com/toufique-imam/KUET-Teachers-Web-Scrapper)
+[![download](https://img.shields.io/github/downloads/toufique-imam/KUET-Teachers-Web-Scrapper/total.svg)](https://github.com/toufique-imam/KUET-Teachers-Web-Scrapper)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=toufique-imam/KUET-Teachers-Web-Scrapper)
+
+---
+
 ## Features
 - Get Teachers' data Department Wise
 
